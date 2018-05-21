@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify-Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>caa31e43-27fd-4c50-afc4-bdf3db00f868</testCaseGuid>
+   <variable>
+      <defaultValue>'jessemutiga2003@live.com'</defaultValue>
+      <description></description>
+      <id>fb8add7f-3752-4922-82f5-c2388199f982</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

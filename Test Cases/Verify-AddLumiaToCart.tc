@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify-AddLumiaToCart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b8e33511-8d92-400a-b189-6dbc1cf8526a</testCaseGuid>
+   <variable>
+      <defaultValue>'Nokia Lumia 1020'</defaultValue>
+      <description></description>
+      <id>4c61222b-02b9-4d15-acd2-9cfe836eeef6</id>
+      <masked>false</masked>
+      <name>lumia</name>
+   </variable>
+</TestCaseEntity>

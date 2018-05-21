@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify-FlowerGirlBracelet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>efc13718-c43f-47b6-9dd5-9c2744e76b80</testCaseGuid>
+   <variable>
+      <defaultValue>'flower girl bracelet'</defaultValue>
+      <description></description>
+      <id>4a8e62f2-0997-4369-814c-ade7eb4330ea</id>
+      <masked>false</masked>
+      <name>flower</name>
+   </variable>
+</TestCaseEntity>

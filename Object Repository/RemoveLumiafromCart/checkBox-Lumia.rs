@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkBox-Lumia</name>
+   <tag></tag>
+   <elementGuidId>5d31ac95-af42-4ce1-bc4b-d46ca7cc7ff7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='shopping-cart-form']/div[1]/table/tbody/tr[1]/td[1]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='shopping-cart-form']/div[1]/table/tbody/tr[1]/td[1]/input</value>
+   </webElementProperties>
+</WebElementEntity>

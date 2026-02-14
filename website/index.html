@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agitum Constructions | Construction Materials Marketplace</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav container">
+      <div class="logo">Agitum <span>Constructions</span></div>
+      <a class="btn btn-outline" href="#quote">Request Quote</a>
+    </nav>
+
+    <div class="hero-content container">
+      <h1>Sell Construction Materials Faster</h1>
+      <p>
+        A modern storefront for cement, steel, timber, pipes, fittings, and more.
+        Reach contractors, developers, and homeowners in one place.
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="#catalog">Browse Products</a>
+        <a class="btn btn-outline" href="#features">Why Agitum Constructions?</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="features" class="section container">
+      <h2>Built for Construction Suppliers</h2>
+      <div class="grid three">
+        <article class="card">
+          <h3>Bulk Order Ready</h3>
+          <p>Support large quantity orders with custom pricing and delivery windows.</p>
+        </article>
+        <article class="card">
+          <h3>Fast Quotations</h3>
+          <p>Capture quote requests instantly and respond with confidence.</p>
+        </article>
+        <article class="card">
+          <h3>Trusted Logistics</h3>
+          <p>Highlight delivery options for sites, warehouses, and same-day dispatch.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="catalog" class="section section-muted">
+      <div class="container">
+        <h2>Popular Materials</h2>
+        <div class="grid three" id="products"></div>
+      </div>
+    </section>
+
+    <section id="quote" class="section container">
+      <h2>Get a Quote</h2>
+      <p>Tell us what you need and we will send pricing within one business day.</p>
+
+      <form id="quoteForm" class="quote-form" novalidate>
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Jane Contractor" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="jane@company.com" required />
+        </label>
+        <label>
+          Material Needed
+          <select name="material" required>
+            <option value="">Select a material</option>
+            <option>Cement</option>
+            <option>Rebar / Steel</option>
+            <option>Bricks & Blocks</option>
+            <option>Timber</option>
+            <option>Plumbing Supplies</option>
+          </select>
+        </label>
+        <label>
+          Quantity
+          <input type="text" name="quantity" placeholder="e.g. 120 bags" required />
+        </label>
+        <label class="full">
+          Delivery Location
+          <input type="text" name="location" placeholder="Site address" required />
+        </label>
+        <label class="full">
+          Additional Notes
+          <textarea name="notes" rows="4" placeholder="Project timeline, preferred brand, etc."></textarea>
+        </label>
+
+        <button type="submit" class="btn">Submit Request</button>
+        <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Agitum Constructions. Built to grow your construction supply business.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
